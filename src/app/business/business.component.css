@@ -1,0 +1,126 @@
+.pic {
+  width: 600px;
+  height: 400px;
+}
+.pic2 {
+  width: 600px;
+  height: 400px;
+}
+mat-card {
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
+.business {
+  font-size: 36px;
+  padding: 30px;
+}
+.business1 {
+  font-size: 50px;
+  text-decoration: underline;
+  padding: 30px;
+}
+
+.content {
+  font-size: 24px;
+}
+mat-icon {
+  font-size: 30px;
+}
+
+mat-grid-tile {
+  border: 1px solid  #E6432D;
+}
+
+.how {
+  background-color: #ADDDDA;
+}
+
+.proof {
+  background-color: rgb(189, 216, 214);
+}
+.price {
+  font-size: 18px;
+}
+
+.logo {
+  width: 120px;
+  height: 100px;
+  padding-right: 25px;
+  padding-top: 40px;
+
+
+}
+.logo2{
+  width: 120px;
+  height: 180px;
+  padding: 35px;
+}
+
+.logo3 {
+  width: 140px;
+  height: 140px;
+  padding: 35px;
+}
+.logo4 {
+  width: 160px;
+  height: 100px;
+  padding: 35px;
+}
+.logo6 {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+.logo7 {
+  width: 150px;
+  height: 150px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.logo8 {
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.profits {
+  background-color: #ADDDDA;
+}
+
+.logo10 {
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+}
+
+.proof-box {
+  background-color: #BDD8D6;
+}
+
+.highlights {
+  background-color: rgb(255, 255, 131);
+}
+.highlights2 {
+  background-color: lightgreen;
+}
+.highlights3 {
+  background-color: lightskyblue;
+}
+
+.earth {
+  width: 175px;
+  height: 175px;
+  padding-left: 60px;
+}
+
+.house {
+  padding-right: 60px;
+}
+.pic3 {
+  width: 300px;
+  height: 155px;
+}
+/* .brands {
+  background-color: #959792;
+} */

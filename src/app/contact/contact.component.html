@@ -1,0 +1,65 @@
+<mat-card fxLayout fxLayoutAlign="center center">
+  <mat-card-title>Contact Us by Leaving Your Information</mat-card-title>
+</mat-card>
+<section class="signup-form">
+  <form (ngSubmit)="onAddUser(f)" #f="ngForm" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+    <mat-form-field>
+      <input
+        type="name"
+        matInput
+        placeholder="Your Name"
+        ngModel
+        name="name"
+        #nameInput="ngModel"
+        required>
+        <mat-error *ngIf="nameInput.hasError('required')">Name is required</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        type="email"
+        matInput placeholder="Your Email"
+        ngModel
+        name="email"
+        email
+        #emailInput="ngModel"
+        required>
+        <mat-error *ngIf="emailInput.hasError('required')">Email is required</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        type="tel"
+        matInput
+        placeholder="Your Phone Number"
+        ngModel
+        name="phone number"
+        #phoneInput="ngModel"
+        required>
+        <mat-error *ngIf=""></mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        type="text"
+        matInput
+        placeholder="Company Name"
+        ngModel
+        #companyInput="ngModel"
+        name="company">
+    </mat-form-field>
+    <mat-form-field>
+      <textarea
+        matInput
+        ngModel
+        required
+        placeholder="Message"
+        name="message">
+      </textarea>
+    </mat-form-field>
+    <mat-checkbox ngModel name="agree" required color="primary">Agree to Terms and Conditions</mat-checkbox>
+    <button type="submit" mat-raised-button color="primary">Submit</button>
+  </form>
+</section>
+<mat-card fxLayout="column" fxLayoutAlign="center center">
+  <mat-card-title>Or Email us directly.</mat-card-title>
+  <mat-card-content>info@fetchd.com</mat-card-content>
+  <mat-card-content>555.555.5555</mat-card-content>
+</mat-card>

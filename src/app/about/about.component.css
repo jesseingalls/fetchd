@@ -1,0 +1,66 @@
+mat-card {
+  font-family:'Raleway', sans-serif;
+}
+mat-card {
+  width: 100%;
+  /* background-color: #E6432D; */
+  color:  #E6432D;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
+}
+
+.text {
+  color: black;
+}
+.about {
+  font-size: 40px;
+}
+.text-about {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+a {
+  color: #E6432D;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #A7D9D6;
+}
+
+.card1 {
+  background-color: rgb(148, 148, 148);
+  color: black;
+  height: 300px;
+}
+.card2 {
+  background-color: lightgrey;
+  height: 300px;
+  color: black;
+}
+s
+section {
+  width: 100%;
+}
+
+div {
+  padding: 25px;
+}
+
+.pic {
+  height: 130px;
+  width: 110px;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+.pic2 {
+  height: 130px;
+  width: 120px;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+
+a:hover {
+  color: lightgrey;
+}

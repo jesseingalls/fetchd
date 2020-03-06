@@ -1,0 +1,32 @@
+.welcome {
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
+img {
+  width: 275px;
+  height: 475px;
+}
+.img2 {
+  height: 125px;
+  width: 125px;
+}
+.main {
+  height: 700px;
+}
+.center {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  background-image: url('/assets/images/handshake.jpg');
+}
+
+button {
+  background-color: #464646;
+  color: white;
+}
+button:hover {
+  background-color: lightblue;
+
+}
